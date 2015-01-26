@@ -16,7 +16,9 @@ You can simply fork and clone (or download) the repo into your local directory:
 
 ## Usage
 
-The default gulp command builds all the files from `src` to `dist` folder and then watches for changes. You can then fire up a server (to retrieve some of the CDN files) and/or open index.html under the `dist` folder.
+The default gulp command builds all the files from `src` to `dist` folder and then watches for changes. You can then fire up a server (to retrieve some of the CDN files) and/or open `index.html` under the `dist` folder.
+
+To simply build without watching, you can `$ gulp build`.
 
 ## Options
 
