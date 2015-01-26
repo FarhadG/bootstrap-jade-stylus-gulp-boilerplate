@@ -1,5 +1,4 @@
 ## Bootstrap Jade Stylus Gulp Boilerplate
-======================================
 
 A minimal seed comprising of Bootstrap, Jade, Stylus, Gulp and some basic imports, like Google Webfonts, FontAwesome, etc.
 
