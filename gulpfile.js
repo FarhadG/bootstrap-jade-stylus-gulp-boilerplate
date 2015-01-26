@@ -8,7 +8,7 @@ var jade = require('gulp-jade');
 var stylus = require('gulp-stylus');
 
 /*******************************************************************************
- *  Jade task
+ *  Jade task (optional to change the name of the file)
  */
 gulp.task('templates', function() {
 	var locs = {};
@@ -19,7 +19,7 @@ gulp.task('templates', function() {
 });
 
 /*******************************************************************************
- *  Stylus task
+ *  Stylus task (optional to change the name of the file)
  */
 gulp.task('styles', function() {
            gulp.src('./src/styles/style.styl')
