@@ -1,6 +1,6 @@
 ## Bootstrap Jade Stylus Gulp Boilerplate
 
-A minimal seed comprising of Bootstrap, Jade, Stylus, Gulp and some basic imports, like Google Webfonts, FontAwesome, etc.
+A minimal seed comprising of Bootstrap, Jade, Stylus, Gulp and some basic imports, like Google Webfonts, FontAwesome, etc. It has a set of configurations setup for the source and destinations paths, server port, livereloading, etc. You can leave them as they are or modify them inside of the `gulpfile.js`.
 
 ## Installation
 
@@ -15,7 +15,7 @@ You can simply fork and clone (or download) the repo into your local directory:
 
 ## Usage
 
-The default gulp command builds all the files from `src` to `dist` folder and then watches for changes. You can then fire up a server (to retrieve some of the CDN files) and/or open `index.html` under the `dist` folder.
+Once you run `$ gulp`, it builds all of the files from `src` to `dist` folder, watches for changes and reloads your browser (on port 3000).
 
 To simply build without watching, you can `$ gulp build`.
 
