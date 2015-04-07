@@ -10,14 +10,14 @@ You can simply fork and clone (or download) the repo into your local directory:
   $ git clone https://github.com/FarhadG/bootstrap-jade-stylus-gulp-boilerplate.git
   $ cd bootstrap-jade-stylus-gulp-boilerplate
   $ npm install
-  $ gulp
+  $ npm run start
 ```
 
 ## Usage
 
-Once you run `$ gulp`, it builds all of the files from `src` to `dist` folder, watches for changes and reloads your browser (on port 3000).
+Once you run `$ npm run start`, it builds all of the files from `src` to `dist` folder, watches for changes and reloads your browser (on port 3000).
 
-To simply build without watching, you can `$ gulp build`.
+To simply build without watching, you can `$ npm run build`.
 
 ## Options
 
