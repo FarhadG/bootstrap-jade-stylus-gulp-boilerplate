@@ -35,13 +35,13 @@ var config = {
 };
 
 /*******************************************************************************
- *  Webserver listening on port 3000
+ *  Webserver up and running
  */
 gulp.task('webserver', function() {
     gulp.src('.')
         .pipe(webserver({
-            host: 'localhost',
-            port: '3000',
+            host: config.server.host,
+            port: config.server.port,
             livereload: true,
             directoryListing: false
         }));
